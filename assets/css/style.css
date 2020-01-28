@@ -1,3 +1,32 @@
+/* IMPORT */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
 body {
     margin: 0;
+    font-family: 'Roboto Condensed', Open Sans, sans-serif;
+}
+
+div:nth-child(1) {
+    background-color: #EFEFD0;
+    width: 93em;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+div:nth-child(1) div:nth-child(1) .div-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 750px;
+    background-image: url("../img/building2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+div:nth-child(1) div:nth-child(1) .div-left h1 {
+    display: flex;
+    color: white;
+    font-size: 50px;
 }
