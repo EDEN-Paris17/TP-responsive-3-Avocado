@@ -6,9 +6,9 @@ body {
     font-family: 'Roboto Condensed', Open Sans, sans-serif;
 }
 
-div:nth-child(1) {
-    background-color: #EFEFD0;
-    width: 93em;
+.fakebody {
+    background-color: #fff;
+    width: 85em;
     height: 100vh;
     margin: 0 auto;
 }
@@ -18,7 +18,7 @@ div:nth-child(1) div:nth-child(1) .div-left {
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 750px;
+    height: 680px;
     background-image: url("../img/building2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -29,4 +29,266 @@ div:nth-child(1) div:nth-child(1) .div-left h1 {
     display: flex;
     color: white;
     font-size: 50px;
+}
+
+div:nth-child(1) div:nth-child(1) .div-right div:nth-child(1) {
+    background-color: #fff;
+    width: 23%;
+    height: 314px;
+    float: left;
+    border: 0.5em solid #fff;
+    margin: 5px;
+}
+
+div:nth-child(1) div:nth-child(1) .div-right div:nth-child(2) {
+    background-color: #fff;
+    width: 23%;
+    height: 314px;
+    float: left;
+    border: 0.5em solid #fff;
+    margin: 5px;
+}
+
+div:nth-child(1) div:nth-child(1) .div-right div:nth-child(3) {
+    background-color: #fff;
+    width: 23%;
+    height: 314px;
+    float: left;
+    border: 0.5em solid #F2EAE1;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div:nth-child(1) div:nth-child(1) .div-right div:nth-child(3) img {
+    width: 50px;
+}
+
+div:nth-child(1) div:nth-child(1) .div-right div:nth-child(4) {
+    background-color: #fff;
+    width: 23%;
+    height: 314px;
+    float: left;
+    border: 0.5em solid #fff;
+    margin: 5px;
+}
+
+/* Border */
+
+.border-transparent {
+    padding: 10px;
+    display: flex;
+}
+
+/* dfhsdjifhsdjifhqsdfhjqsdhfjqsdghfjidhfvudfjhf uvegsdbvuibgjc,sebgfhisfyghk */
+
+
+div:nth-child(1) div:nth-child(3) .div-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 680px;
+    background-image: url("../img/building1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+}
+
+div:nth-child(1) div:nth-child(3) .div-right {
+    float: right;
+}
+
+div:nth-child(1) div:nth-child(3) .div-left div:nth-child(1) {
+    background-image: url("../img/food1.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 24%;
+    height: 330px;
+    float: right;
+    margin: 5px;
+}
+
+div:nth-child(1) div:nth-child(3) .div-left div:nth-child(2) {
+    background-color: #fff;
+    width: 23%;
+    height: 314px;
+    float: left;
+    border: 0.5em solid #F2EAE1;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div:nth-child(1) div:nth-child(3) .div-left div:nth-child(2) h1 {
+    text-align: center;
+}
+
+
+div:nth-child(1) div:nth-child(3) .div-left div:nth-child(3) {
+    background-color: #fff;
+    width: 23%;
+    height: 314px;
+    float: right;
+    border: 0.5em solid #F2EAE1;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div:nth-child(1) div:nth-child(3) .div-left div:nth-child(4) {
+    background-color: #fff;
+    width: 23%;
+    height: 314px;
+    float: right;
+    border: 0.5em solid #fff;
+    margin: 5px;
+}
+
+/* dfhsdjifhsdjifhqsdfhjqsdhfjqsdghfjidhfvudfjhf uvegsdbvuibgjc,sebgfhisfyghk */
+
+
+div:nth-child(1) div:nth-child(5) .div-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 330px;
+    background-color: #5F9300;
+    float: right;
+}
+
+div:nth-child(1) div:nth-child(5) .div-right h1 {
+    display: flex;
+    color: white;
+    font-size: 50px;
+}
+
+div:nth-child(1) div:nth-child(5) .div-right {
+    float: right;
+}
+
+div:nth-child(1) div:nth-child(5) .div-right h1 {
+    display: flex;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+div:nth-child(1) div:nth-child(5) .div-left div:nth-child(1) {
+    background-color: #fff;
+    width: 23%;
+    height: 314px;
+    float: left;
+    border: 0.5em solid #fff;
+    margin: 5px;
+}
+
+div:nth-child(1) div:nth-child(5) .div-left div:nth-child(2) {
+    background-color: #fff;
+    width: 23%;
+    height: 314px;
+    float: left;
+    border: 0.5em solid #fff;
+    margin: 5px;
+}
+
+/* dfhsdjifhsdjifhqsdfhjqsdhfjqsdghfjidhfvudfjhf uvegsdbvuibgjc,sebgfhisfyghk */
+
+div:nth-child(1) div:nth-child(7) .div-left div:nth-child(1) {
+    background-color: #fff;
+    width: 23%;
+    height: 314px;
+    float: left;
+    border: 0.5em solid #fff;
+    margin: 5px;
+}
+
+div:nth-child(1) div:nth-child(7) .div-right div:nth-child(1) {
+    background-color: #fff;
+    width: 23%;
+    height: 314px;
+    float: right;
+    border: 0.5em solid #F2EAE1;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div:nth-child(1) div:nth-child(7) .div-right div:nth-child(1) h1 {
+    display: flex;
+    color: #5F9300;
+    font-size: 16px;
+    text-align: left;
+}
+
+div:nth-child(1) div:nth-child(7) .div-right div:nth-child(1) p {
+    display: flex;
+    color: #2d2f32;
+    font-size: 16px;
+    text-align: left;
+}
+
+div:nth-child(1) div:nth-child(7) .div-right div:nth-child(2) {
+    background-image: url("../img/chef.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 24%;
+    height: 330px;
+    float: right;
+    margin: 5px;
+}
+
+div:nth-child(1) div:nth-child(7) .div-right div:nth-child(3) {
+    background-color: #F2EAE1;
+    width: 23%;
+    height: 314px;
+    float: right;
+    border: 0.5em solid #F2EAE1;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div:nth-child(1) div:nth-child(7) .div-right div:nth-child(3) h1 {
+    color: #5F9300;
+    font-size: 45px;
+    text-align: center;
+}
+
+/* dfhsdjifhsdjifhqsdfhjqsdhfjqsdghfjidhfvudfjhf uvegsdbvuibgjc,sebgfhisfyghk */
+
+div:nth-child(1) div:nth-child(9) .div-left div:nth-child(1) {
+    background-image: url("../img/food2.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 24%;
+    height: 330px;
+    float: left;
+    margin: 5px;
+}
+
+div:nth-child(1) div:nth-child(9) .div-left div:nth-child(2) {
+    background-color: #fff;
+    width: 23%;
+    height: 314px;
+    float: left;
+    border: 0.5em solid #F2EAE1;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div:nth-child(1) div:nth-child(9) .div-left div:nth-child(2) h1 {
+    text-align: center;
+}
+
+div:nth-child(1) div:nth-child(9) .div-left div:nth-child(2) img {
+    width: 50px;
 }
