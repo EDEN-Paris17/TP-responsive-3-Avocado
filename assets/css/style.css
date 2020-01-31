@@ -6,12 +6,16 @@ body {
     font-family: 'Roboto Condensed', Open Sans, sans-serif;
 }
 
-.fakebody {
+.fakebody-1 {
     background-color: #fff;
     width: 85em;
     height: 100vh;
     margin: 0 auto;
 }
+
+.fakebody-2 {
+    display: none;
+  }
 
 div:nth-child(1) div:nth-child(1) .div-left {
     display: flex;
@@ -292,3 +296,168 @@ div:nth-child(1) div:nth-child(9) .div-left div:nth-child(2) h1 {
 div:nth-child(1) div:nth-child(9) .div-left div:nth-child(2) img {
     width: 50px;
 }
+
+@media (max-width: 1377px) {
+    .fakebody-1 {
+      display: none;
+    }
+    .fakebody-2 {
+        display: block;
+        margin: 16px;
+      }
+
+    .fakebody-2 div:nth-child(1) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 330px;
+        background-image: url("../img/building2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .fakebody-2 div:nth-child(1) h1 {
+        color: white;
+        font-size: 40px;
+    }
+
+    .fakebody-2 div:nth-child(2) {
+        background-color: #fff;
+        width: 98%;
+        height: 330px;
+        border: 0.5em solid #F2EAE1;
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fakebody-2 div:nth-child(2) img {
+        width: 50px;
+    }
+
+    .fakebody-2 div:nth-child(3) {
+        background-color: #F2EAE1;
+        width: 98%;
+        height: 330px;
+        border: 0.5em solid #F2EAE1;
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fakebody-2 div:nth-child(3) h1 {
+        text-align: center;
+    }
+
+    .fakebody-2 div:nth-child(4) {
+        background-image: url("../img/food1.jpg");
+        background-position: center;
+        background-size: cover;
+        width: 49%;
+        height: 330px;
+        float: left;
+        margin-top: 5px;
+    }
+
+    .fakebody-2 div:nth-child(5) {
+        background-image: url("../img/building1.jpg");
+        background-position: center;
+        background-size: cover;
+        width: 49%;
+        height: 330px;
+        float: right;
+        margin-top: 5px;
+    }
+
+    .fakebody-2 div:nth-child(6) iframe {
+        margin-top: 5px;
+    }
+
+    .fakebody-2 div:nth-child(7) {
+        background-color: #5F9300;
+        width: 98%;
+        height: 165px;
+        border: 0.5em solid #5F9300;
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fakebody-2 div:nth-child(7) h1 {
+        color: white;
+        text-align: center;
+    }
+
+    .fakebody-2 div:nth-child(8) {
+        background-color: #fff;
+        width: 98%;
+        height: 330px;
+        border: 0.5em solid #F2EAE1;
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fakebody-2 div:nth-child(8) h1 {
+        color: #5F9300;
+        text-align: justify;
+    }
+
+    .fakebody-2 div:nth-child(9) {
+        background-image: url("../img/chef.jpg");
+        background-position: center;
+        background-size: cover;
+        width: 49%;
+        height: 330px;
+        float: left;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .fakebody-2 div:nth-child(10) {
+        background-image: url("../img/food2.jpg");
+        background-position: center;
+        background-size: cover;
+        width: 49%;
+        height: 330px;
+        float: right;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .fakebody-2 div:nth-child(11) {
+        background-color: #F2EAE1;
+        width: 98%;
+        height: 330px;
+        border: 0.5em solid #F2EAE1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fakebody-2 div:nth-child(11) h1 {
+        color: #5F9300;
+        text-align: justify;
+    }
+
+    .fakebody-2 div:nth-child(12) {
+        background-color: #fff;
+        width: 98%;
+        height: 330px;
+        border: 0.5em solid #F2EAE1;
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fakebody-2 div:nth-child(12) img {
+        width: 50px;
+    }
+
+  }
